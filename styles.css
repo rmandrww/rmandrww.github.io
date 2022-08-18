@@ -1,0 +1,267 @@
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: rgb(252, 252, 252);
+        font-family: system-ui;
+        color: black;
+    }
+
+    a {
+        color: black;
+    }
+
+    .tbox, .tbox2 {
+        border-color: lightgray;
+        background-color: rgb(252, 252, 252);
+        border-style: solid;
+    }
+
+    .tbox:hover {
+        border-color: rgb(70, 70, 70);
+    }
+
+    .tbox2:hover {
+        border-color: lightgray;
+    }
+
+    .tbox:focus {
+        border-color: rgb(70, 70, 70);
+        outline: none;
+    }
+
+    .button input {
+        background-color: rgb(240, 240, 240);
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(240, 240, 240);
+        color: rgb(85, 85, 85);
+    }
+
+    .button input:hover {
+        border-color: lightgray;
+        border-width: 1px;
+    }
+    .button2 input {
+        color:white;
+        background-color: cornflowerblue;
+    }
+
+    .button2 input:hover {
+        background-color: rgb(80, 129, 217);
+        border-color: rgb(80, 129, 217);
+    }
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(35,35,35);
+        font-family: system-ui;
+        color: white;
+    }
+
+    a {
+        color: white;
+    }
+
+    .tbox, .tbox2 {
+        background-color: rgb(35,35,35);
+        border-color: gray;
+        border-style: solid;
+        color: white;
+        border-width: 1px;
+    }
+    
+    .tbox:hover{
+        background-color: rgb(70,70,70);
+        border-color: rgb(70,70,70);
+    }
+
+    .tbox:focus{
+        border-color: rgb(70,70,70);
+        background-color: rgb(70,70,70);
+        outline: none;
+    }
+
+    .tbox2:hover {
+        border-color: gray;
+    }
+
+    .button input {
+        background-color: rgb(70, 70, 70);
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(70, 70, 70);
+        color: white;
+    }
+
+    .button input:hover {
+        border-color: gray;
+        border-width: 1px;
+    }
+
+    .button2 input {
+        color:black;
+        background-color: rgb(80, 129, 217);
+    }
+    .button2 input:hover {
+        background-color: cornflowerblue;
+        border-color: cornflowerblue;
+    }
+}
+
+.tbox2:focus {
+    border-color: cornflowerblue;
+    outline: none;
+}
+
+#search form {
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+#subtitle {
+    color:cornflowerblue;
+    font-size: 18px;
+    margin-top:-30px;
+    margin-left:210px;
+
+}
+
+.slogo {
+    float:left;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    color:orangered;
+    font-weight: normal;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border-bottom: solid gray 1px;
+}
+
+table {
+    margin: 25px;
+    margin-right: 100px;
+    width: 90%;
+}
+
+td {
+    min-width: 170px;
+    max-width: 90%;
+}
+
+th {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.caption{
+    font-size: 13px;
+    padding-right:40px;
+}
+
+.link {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+a {
+    font-size: 13px;
+    text-decoration: none;
+    margin: 5px;    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button input {
+    margin: 5px;
+    margin-top: 30px;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+
+
+.button input:hover {
+    cursor: pointer;
+}
+
+.button2 input {
+    margin: 5px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    border-width: 0px;
+}
+
+
+
+@media (max-width: 599px) {
+    .tbox {
+        width: 90%;
+    }
+}
+
+@media (min-width: 600px) {
+    .tbox {
+        width: 550px;
+    }
+}
+
+.tbox {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    border-width: 1px;
+}
+
+
+.tbox2 {
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 699px) {
+    .tbox2 {
+        width: 80%;
+    }
+}
+
+@media (min-width: 700px) {
+    .tbox2 {
+        width: 400px;
+    }
+    table {
+        max-width: 700px;
+    }
+}
